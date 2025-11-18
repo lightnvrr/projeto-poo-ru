@@ -1,6 +1,7 @@
 module com.example.projetopooru {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.example.projetopooru;
 
 
     opens com.example.projetopooru to javafx.fxml;
